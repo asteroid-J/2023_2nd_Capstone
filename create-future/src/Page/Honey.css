@@ -1,0 +1,77 @@
+.container {
+  background-color: #efefef;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0px 90px 90px 0px;
+}
+
+.mainFild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  background-color: white;
+  width: 95%;
+  height: 90vh;
+  margin: 5vh 40px;
+}
+
+.iCon {
+  width: 80px;
+  margin: 0 20px;
+}
+
+.iCon_base {
+  width: 80px;
+  margin: 0 20px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.contentH {
+  background-color: #efefef;
+  height: 140px;
+  margin: 3vh 2vw 0 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.textH {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.nameH {
+  margin: 0 20px;
+  padding-top: 50px;
+}
+
+@media (max-height: 900px) {
+  .contentH:last-child {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 작아지는 순간부터 적용
+	태블릿 */
+}
+@media all and (max-width: 768px) {
+  /* 브라우저 창 width가 768px보다 작아지는 순간부터 적용
+	모바일 */
+}
+@media all and (min-width: 768px) {
+  /* 브라우저 창 width가 768px보다 커지는 순간부터 적용
+  태블릿 */
+}
+@media all and (min-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 커지는 순간부터 적용
+  데스크탑 */
+  .contentH {
+    height: 135px;
+  }
+}

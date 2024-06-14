@@ -1,0 +1,128 @@
+.ListWarp {
+  width: 100%;
+  display: flex;
+}
+
+.filter {
+  background-color: #1d1856;
+  width: 8%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.filterContainer {
+  margin: 1vh 0;
+}
+
+.filterContent {
+  display: flex;
+  justify-content: center;
+  margin: 7vh 10px;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.icon {
+  width: 60px;
+}
+
+.text {
+  text-align: center;
+  width: 60px;
+}
+.profileWarp {
+  width: 77vw;
+}
+.profileContainer {
+  display: flex;
+  margin: 0 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #323232;
+  color: white;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 30px 20px;
+  padding: 0 20px;
+}
+
+.profileIconIn {
+  width: 90px;
+  margin-top: 30px;
+}
+
+.profileIconIn_base {
+  margin-top: 30px;
+  width: 90px;
+  background-color: white;
+  border-radius: 100%;
+}
+.menuIconIn {
+  width: 40px;
+  margin-top: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.contentWarp {
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.menuIconWarp {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Name {
+  margin-top: 8vh;
+}
+
+.Content {
+  font-size: 10px;
+}
+
+.ContentSkill {
+  display: flex;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.skillIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.skillName {
+  padding-left: 0.5rem;
+}
+
+@media all and (max-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 작아지는 순간부터 적용
+	태블릿 */
+}
+@media all and (max-width: 768px) {
+  /* 브라우저 창 width가 768px보다 작아지는 순간부터 적용
+	모바일 */
+}
+@media all and (min-width: 768px) {
+  /* 브라우저 창 width가 768px보다 커지는 순간부터 적용
+  태블릿 */
+}
+@media all and (min-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 커지는 순간부터 적용
+  데스크탑 */
+}

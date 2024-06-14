@@ -1,0 +1,285 @@
+.Home {
+  height: 100vh;
+  background-color: #ededed;
+}
+
+.mainContainer {
+  margin-left: 8%;
+}
+
+.leftSection {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+}
+
+.rightSection {
+  margin-left: 2%;
+  display: inline-block;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+}
+
+.name {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+.title {
+  background-color: white;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.titleContent {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+}
+
+.mainColorIcon {
+  width: 140px;
+}
+
+.subContentWarp {
+  width: 100%;
+  height: 58%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sosik {
+  width: 48%;
+  height: 100%;
+  justify-content: center;
+}
+
+.sosikWarp {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sosikTitle {
+  font-size: 25px;
+}
+
+.sosikContent {
+  padding: 2rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.anony {
+  width: 48%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.anonyTitle {
+  font-size: 25px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.anonyTitleText {
+  font-size: 40px;
+  margin-top: 1rem;
+}
+
+.anonyTitleImg {
+  width: 100px;
+}
+
+.anonyWarp {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.anonyContent {
+  padding: 1rem;
+  line-height: 2em;
+}
+
+.anonyContent > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.top {
+  position: relative;
+  margin-top: 26%;
+  height: 72%;
+  background-color: #323232;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.bottom {
+  position: absolute;
+  margin-top: 9%;
+  height: 10%;
+  width: 100%;
+  background-color: #1d1856;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section division end */
+
+.main_profile_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profileImg_wrap {
+  width: 100px;
+  border: 2px dashed #fff;
+  border-radius: 50%;
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.eng_name {
+  margin-top: 5px;
+}
+
+.direct_profile {
+  width: 80%;
+  height: 6vh;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.direct_profile > a {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goProfileMoment {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.shareIcon {
+  width: 40px;
+  background-color: #808bec;
+  border-radius: 50%;
+}
+
+/* main_profile_section end */
+
+.main_skill_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill_section {
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.skill_title {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill_1 {
+  flex-wrap: wrap;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.skilContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skilIcon {
+  width: 40px;
+  display: inline-block;
+}
+
+.skillName {
+  margin-left: 10px;
+}
+
+.certificate_section {
+  width: 80%;
+  height: 15vh;
+  margin-top: 4rem;
+  background-color: #3d3d3d;
+  border-radius: 10px;
+}
+
+.certificateContent {
+  margin: 0.3rem;
+}
+
+.certificate_title {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}

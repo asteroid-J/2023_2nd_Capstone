@@ -1,0 +1,121 @@
+.container {
+  background-color: #efefef;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0px 90px 90px 0px;
+}
+
+.mainFild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userComeContainer {
+  background-color: white;
+  width: 95%;
+  height: 90vh;
+  margin: 5vh 2vw;
+}
+
+.userCome {
+  display: flex;
+  padding: 0 100px;
+  margin-top: 10vh;
+  align-items: center;
+}
+
+.profileIcon {
+  width: 90px;
+}
+
+.profileIcon {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profileIconIn_base {
+  margin-top: 30px;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.profileIconIn {
+  margin-top: 30px;
+  width: 110px;
+  height: 110px;
+}
+
+.text {
+  font-size: 30px;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+.menuIconIn {
+  width: 40px;
+  margin-top: 5vh;
+  filter: brightness(0) invert(1);
+}
+
+.menuIcon {
+  width: 40px;
+}
+
+.profileContainer {
+  display: flex;
+  margin: 0 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #323232;
+  color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin: 30px 20px;
+  padding: 0 20px;
+}
+
+.Name {
+  margin-top: 10vh;
+  font-size: 30px;
+}
+
+.Content {
+  font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+  .profile:last-child {
+    display: none;
+  }
+}
+
+@media (min-height: 900px) {
+}
+
+@media all and (max-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 작아지는 순간부터 적용
+	태블릿 */
+}
+@media all and (max-width: 768px) {
+  /* 브라우저 창 width가 768px보다 작아지는 순간부터 적용
+	모바일 */
+}
+@media all and (min-width: 768px) {
+  /* 브라우저 창 width가 768px보다 커지는 순간부터 적용
+  태블릿 */
+}
+@media all and (min-width: 1024px) {
+  /* 브라우저 창 width가 1024px보다 커지는 순간부터 적용
+  데스크탑 */
+  /* .profile {
+    height: 550px;
+  } */
+}
